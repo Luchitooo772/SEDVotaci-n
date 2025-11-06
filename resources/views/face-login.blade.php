@@ -278,7 +278,7 @@
   
   <!-- FOOTER -->
   <footer>
-    <p>Soporte: <a href="mailto:soporte@votacionapp.com">soporte@votacionapp.com</a> | Tel: 0800-123-4567</p>
+    <p>Soporte: <a href="mailto: voto.digital1@gmail.com">voto.digital1@gmail.com</a> | Tel: 0800-123-4567</p>
     <p>© 2025 Sistema de Votación Digital. Gobierno de Misiones. Todos los derechos reservados.</p>
     <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
   </footer>
@@ -342,15 +342,14 @@ const labels = ['user0','user1','user2','user3','user4','user5','user6','user7',
 
 async function cargarModelos() {
   // --- ¡MODIFICADO! Se añade clase .loading ---
-  statusDiv.innerHTML = "Cargando modelos...";
-  statusDiv.classList.add('loading');
+
   await Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
     faceapi.nets.faceRecognitionNet.loadFromUri('/models')
   ]);
   // --- ¡MODIFICADO! Se quita clase .loading ---
-  statusDiv.innerHTML = "✅ Modelos cargados.";
+  statusDiv.innerHTML = "Aguarde frente a la camara del dispositivo";
   statusDiv.classList.remove('loading');
 }
 
