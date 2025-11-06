@@ -211,7 +211,7 @@
         <!-- Tarjeta de Bienvenida -->
         <div class="welcome-card text-center">
             <h3 class="fw-bold mb-3">Bienvenido</h3>
-            <p class="lead mb-4">Seleccione un método de acceso para comenzar a votar de manera segura y confiable.</p>
+            <p class="lead mb-4">Inicie el proceso de reconocimiento.</p>
 
             <div class="d-grid gap-3">
                 <!-- Botón login facial -->
@@ -271,10 +271,10 @@
 
     <!-- FOOTER -->
     <footer>
-      <p>Soporte: <a href="mailto:soporte@votacionapp.com">soporte@votacionapp.com</a> | Tel: 0800-123-4567</p>
-      <p>© 2025 Sistema de Votación Digital. Gobierno de Misiones. Todos los derechos reservados.</p>
-      <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
-    </footer>
+    <p>Soporte: <a href="mailto: voto.digital1@gmail.com">voto.digital1@gmail.com</a> | Tel: 0800-123-4567</p>
+    <p>© 2025 Sistema de Votación Digital. Gobierno de Misiones. Todos los derechos reservados.</p>
+    <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
+  </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
