@@ -635,7 +635,7 @@
   </div>
 
   <footer>
-    <p>Soporte: <a href="mailto:soporte@votacionapp.com">soporte@votacionapp.com</a> | Tel: 0800-123-4567</p>
+    <p>Soporte: <a href="mailto: voto.digital1@gmail.com">voto.digital1@gmail.com</a> | Tel: 0800-123-4567</p>
     <p>© 2025 Sistema de Votación Digital. Gobierno de Misiones. Todos los derechos reservados.</p>
     <p><a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
   </footer>
